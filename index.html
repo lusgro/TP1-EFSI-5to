@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="funciones.js"></script>
+    <form id="form">
+        <div>
+            <label for="matematica" id="labelMatematica">Matematica</label>
+            <input type="text" id="matematica" required>
+          </div>
+          <div>
+            <label for="lengua" id="labelLengua">Lengua</label>
+            <input type="text" id="lengua" required>
+          </div>
+          <div>
+            <label for="efsi" id="labelEFSI">EFSI</label>
+            <input type="text" id="efsi" required>
+          </div>
+          <button type="button" onclick="calcularPromedio()">Calcular Promedio</button>
+          <button type="button" onclick="mostrarMayorNota()">Calcular mayor nota</button>
+        </form>
+        <div id="resultado"></div>
+        <img id="imagen" src="bienvenida.png" alt="Bienvenida">
+      </body>
+    </form>
+</body>
+</html>
